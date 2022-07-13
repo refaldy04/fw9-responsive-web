@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 300vh;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero1 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero1 .container {
+  margin-top: 63px;
+  margin-left: 150px;
+}
+
+.hero1 .container h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700px;
+  font-size: 29px;
+  color: #6379f4;
+}
+
+.hero1 .container p {
+  position: absolute;
+  width: 474px;
+  height: 186px;
+  left: 150px;
+  top: 244px;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 93px;
+}
+
+.hero1 .container p span {
+  color: #6379f4;
+}
+
+.hero1 .container .message {
+  position: absolute;
+  left: 10.42%;
+  right: 59.86%;
+  bottom: 88.36%;
+  margin-top: 220px;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #3a3d42;
+}
+
+.hero1 .container div.btn-try {
+  width: 173px;
+  height: 57px;
+  border-radius: 12px;
+  background-color: #6379f4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  font-family: 'Nunito Sans';
+  margin-top: 470px;
+}
+
+.hero2 {
+  background-image: url('img/Rectangle 43.png');
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.login {
+  display: flex;
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin-top: 55px;
+  margin-left: 290px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  position: absolute;
+  display: flex;
+  width: 120px;
+  height: 48px;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 55px;
+  margin-left: 440px;
+  color: #6379f4;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero2 .wave {
+  margin-top: 108px;
+}
+
+.hero2 .handphone {
+  position: absolute;
+  margin-top: 118px;
+}
