@@ -8,20 +8,50 @@
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="asset/css/login.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <main class="row">
-      <div class="col-7 fw-intro">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab sequi! Consequuntur ipsa possimus non perferendis, et voluptatum quia omnis voluptatem, autem quibusdam cumque laboriosam quidem repellat voluptas modi impedit
-          temporibus officiis odio quaerat ipsum necessitatibus iusto commodi aliquam tempora! Dignissimos, unde. Consequatur porro deleniti beatae? Esse placeat neque magnam nesciunt qui maxime sequi ab quae hic in quia quibusdam, quas
-          atque velit optio, libero dolor nemo? Delectus earum porro sunt, magni voluptatum sapiente? At aperiam corporis quasi qui est, ab iure dolorum. Quas voluptatem qui harum. Dolorum laborum, assumenda omnis porro veniam officiis id,
-          perspiciatis culpa dolor cum repudiandae!
+    <main class="row vh-100">
+      <div class="col-7 fw-intro d-flex flex-column justify-content-center">
+        <h1 class="fw-brand text-light">ZWALLET</h1>
+        <figure class="figure text-center">
+          <img src="asset/img/Group 57.png" class="figure-img img-fluid rounded" alt="phone-1" />
+        </figure>
+
+        <h3 class="fw-motto text-light">App that Covering Banking Needs.</h3>
+        <p class="text-light mt-5">
+          Zwallet is an application that focussing in banking needs for all users in the world. Always updated and always following world trends. 5000+ users registered in Zwallet everyday with worldwide users coverage.
         </p>
       </div>
-      <div class="col-5"></div>
+      <div class="col-5 fw-form">
+        <h3 class="fw-motto fw-margin">Start Accessing Banking Needs With All Devices and All Platforms With 30.000+ Users</h3>
+        <p class="fw-accessibility mt-4">Transfering money is eassier than ever, you can access Zwallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!</p>
+        <div class="col-auto my-5">
+          <label class="visually-hidden" for="autoSizingInputGroup">Email</label>
+          <div class="input-group">
+            <div class="input-group-text"><i data-feather="mail"></i></div>
+            <input type="email" class="form-control" placeholder="Enter your e-mail" />
+          </div>
+        </div>
+        <div class="col-auto my-5">
+          <label class="visually-hidden" for="autoSizingInputGroup">Password</label>
+          <div class="input-group">
+            <div class="input-group-text"><i data-feather="lock"></i></div>
+            <input type="password" class="form-control" placeholder="Enter your password" />
+          </div>
+        </div>
+        <p class="mt-4 text-end fw-forgot-pw"><a href="#">Forgot password?</a></p>
+        <div class="d-grid fw-button rounded">
+          <button class="btn" type="button"><span class="fw-login-btn">Login</span></button>
+        </div>
+        <p class="my-5 text-center fw-signup">Don't have an account? Let's <a href="#">Sign Up</a></p>
+      </div>
     </main>
+    <script>
+      feather.replace();
+    </script>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
