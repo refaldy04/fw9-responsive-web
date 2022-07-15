@@ -4,23 +4,14 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
+section {
+  max-width: 100%;
 }
 
 .fw-intro {
   background-image: url('../img/Mask Group.png');
+  max-width: 100%;
   padding: 30px 100px 30px;
-}
-
-.fw-brand {
-  font-size: 29px;
-  font-weight: 700;
-}
-
-.fw-motto {
-  font-size: 24px;
-  font-weight: 700;
 }
 
 .fw-form {
