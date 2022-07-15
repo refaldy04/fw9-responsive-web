@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.fw9-navbar {
+  padding: 50px 150px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0 0 50px 50px;
+}
+
+.fw9-brand {
+  font-weight: 700;
+  font-size: 29px;
+  color: #6379f4;
+}
+
+.fw9-name-user {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.fw9-bell {
+  margin-top: 15px;
+}
+
+main {
+  padding: 50px 150px;
+}
+
+.fw9-btn-menu {
+  background-color: #6379f4;
+}
+
+.hahaha {
+  height: 100vh;
+}
