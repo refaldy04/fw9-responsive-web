@@ -86,7 +86,7 @@ main {
 .fw9-status {
   width: 70px;
   height: 70px;
-  background-color: #1ec15f;
+  background-color: #ff5b37;
 }
 
 .fw9-text-status {
@@ -94,6 +94,13 @@ main {
   font-size: 22px;
   line-height: 30px;
   color: #4d4b57;
+}
+
+.fw9-failed-msg {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7a7886;
+  max-width: 591px;
 }
 
 .fw9-detail {
