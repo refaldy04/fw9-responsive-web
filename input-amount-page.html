@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Search Receiver</title>
+    <title>Input Amount</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="asset/css/search-receiver.css" />
+    <link rel="stylesheet" href="asset/css/input-amount.css" />
   </head>
   <body>
     <nav class="fw9-navbar">
@@ -69,50 +69,31 @@
           </div>
         </div>
 
-        <div class="col-lg-9 col-12 mt-5 mt-lg-0 d-flex flex-column gap-4 bg-light rounded-4 fw9-search-receiver">
-          <p>Search Receiver</p>
-          <div class="input-group flex-nowrap">
-            <span class="input-group-text fw9-input-search" id="addon-wrapping"><i data-feather="search"></i></span>
-            <input type="text" class="form-control fw9-input-search" placeholder="Search receiver here" aria-label="Username" aria-describedby="addon-wrapping" />
+        <div class="col-lg-9 col-12 mt-5 mt-lg-0 d-flex flex-column gap-4 bg-light rounded-4 fw9-input-amount">
+          <p class="transfer-header">Transfer Money</p>
+          <div class="d-flex align-items-start justify-content-between flex-column flex-xl-row fw9-receiver">
+            <div class="d-flex align-items-start gap-2">
+              <img src="asset/img/David.png" alt="" class="img-fluid" />
+              <div class="d-flex flex-column justify-content-between">
+                <h5 class="name-history">Samuel Suhi</h5>
+                <p class="type-history">+62 813-8492-9994</p>
+              </div>
+            </div>
           </div>
-
-          <div class="d-flex flex-column gap-5 mt-4 mt-xl-0">
-            <div class="d-flex align-items-start justify-content-between flex-column flex-xl-row">
-              <div class="d-flex align-items-start gap-2">
-                <img src="asset/img/David.png" alt="" class="img-fluid" />
-                <div class="d-flex flex-column justify-content-between">
-                  <h5 class="name-history">Samuel Suhi</h5>
-                  <p class="type-history">+62 813-8492-9994</p>
-                </div>
+          <p class="guide-transfer">Type the amount you want to transfer and then press continue to the next steps.</p>
+          <div class="d-flex flex-column align-items-center">
+            <h1 class="text-secondary">0.00</h1>
+            <p>Rp120.000 Available</p>
+            <div class="col-auto my-5">
+              <label class="visually-hidden" for="autoSizingInputGroup">Email</label>
+              <div class="input-group">
+                <div class="input-group-text"><i data-feather="edit-2"></i></div>
+                <input type="email" class="form-control" placeholder="Add some notes" />
               </div>
             </div>
-            <div class="d-flex align-items-start justify-content-between flex-column flex-xl-row">
-              <div class="d-flex align-items-start gap-2">
-                <img src="asset/img/2.png" alt="" class="img-fluid" />
-                <div class="d-flex flex-column justify-content-between">
-                  <h5 class="name-history">Mellisa Chen</h5>
-                  <p class="type-history">+62 812-4343-6731</p>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex align-items-start justify-content-between flex-column flex-xl-row">
-              <div class="d-flex align-items-start gap-2">
-                <img src="asset/img/1.png" alt="" class="img-fluid" />
-                <div class="d-flex flex-column justify-content-between">
-                  <h5 class="name-history">Jessica Keen</h5>
-                  <p class="type-history">+62 811-3452-5252</p>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex align-items-start justify-content-between flex-column flex-xl-row">
-              <div class="d-flex align-items-start gap-2">
-                <img src="asset/img/Rectangle 25.png" alt="" class="img-fluid" />
-                <div class="d-flex flex-column justify-content-between">
-                  <h5 class="name-history">Michael Le</h5>
-                  <p class="type-history">+62 810-4224-4613</p>
-                </div>
-              </div>
-            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-primary fw9-submit-btn">Continue</button>
           </div>
         </div>
       </div>
