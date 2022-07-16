@@ -120,6 +120,20 @@ footer p {
   color: rgba(239, 239, 239, 0.9);
 }
 
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 30px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+
+  .fw9-navbar {
+    padding: 30px;
+  }
+}
+
 .hahaha {
   height: 100vh;
 }
