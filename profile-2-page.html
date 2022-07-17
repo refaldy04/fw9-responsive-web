@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile V2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="asset/css/profile-2.css" />
+  </head>
+  <body>
+    <nav class="fw9-navbar">
+      <div class="row d-flex justify-content-between">
+        <h1 class="fw9-brand col-lg-6 mb-5 mb-lg-0">ZWALLET</h1>
+        <div class="d-flex gap-3 align-items-start col-lg-6 justify-content-lg-end">
+          <img src="asset/img/robert.png" class="img-fluid fw9-profile-pict" alt="profile" />
+          <div class="d-flex flex-column justify-content-end">
+            <h4 class="fw9-name-user d-flex">Robert Chandler</h4>
+            <p>+62 8139 3877 7946</p>
+          </div>
+          <div class="d-flex fw9-bell">
+            <i data-feather="bell"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="dropdown d-lg-none d-block">
+        <button class="fw9-btn-menu btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item active" href="#" aria-current="true">Dashboard</a></li>
+          <li><a class="dropdown-item" href="#">Transfer</a></li>
+          <li><a class="dropdown-item" href="#">Top Up</a></li>
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <hr />
+          <li><a class="dropdown-item" href="#">Log Out</a></li>
+        </ul>
+      </div>
+
+      <div class="d-flex gap-3">
+        <div class="col-lg-3 flex-column justify-content-between bg-light fw9-menu-list d-none d-lg-flex">
+          <div class="d-flex flex-column gap-5">
+            <div class="d-flex gap-4 fw9-semibold">
+              <i data-feather="grid" class="fw9-menu"></i>
+              <h3 class="fw9-menu">Dashboard</h3>
+            </div>
+            <div class="d-flex gap-4">
+              <i data-feather="arrow-up" class="fw9-menu"></i>
+              <h3 class="fw9-menu">Transfer</h3>
+            </div>
+            <div class="d-flex gap-4">
+              <i data-feather="arrow-down" class="fw9-menu"></i>
+              <h3 class="fw9-menu">Top Up</h3>
+            </div>
+            <div class="d-flex gap-4">
+              <i data-feather="user" class="fw9-menu-active"></i>
+              <h3 class="fw9-menu-active">Profile</h3>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex gap-4">
+              <i data-feather="log-out" class="fw9-menu"></i>
+              <h3 class="fw9-menu">Log Out</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-9 col-12 mt-5 mt-lg-0 d-flex flex-column gap-2">
+          <div class="bg-light rounded-4 fw9-input-amount d-flex flex-column gap-4">
+            <img src="asset/img/8bigger.png" alt="profile" class="img-fluid mx-auto" />
+            <a href="#" class="d-flex mx-auto gap-1 align-items-start">
+              <img src="asset/img/edit-2.png" alt="edit" class="img-fluid mx-auto mt-2" />
+              <p class="text-secondary text-edit">Edit</p>
+            </a>
+            <div class="mx-auto">
+              <h3 class="text-center fw9-fullname">Robert Chandler</h3>
+              <p class="text-center fw9-phone">+62 813-9387-7946</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-2 flex-column flex-lg-row">
+            <div class="d-flex flex-column col-lg-7 bg-light fw9-container-menu">
+              <div class="d-flex flex-column align-items-center gap-3">
+                <div class="fw9-profile-menu d-flex justify-content-between rounded-4 mx-auto">
+                  <p>Personal Information</p>
+                  <img src="asset/img/arrow-left.png" alt="next" class="img-fluid" />
+                </div>
+                <div class="fw9-profile-menu d-flex justify-content-between rounded-4 mx-auto">
+                  <p>Change Password</p>
+                  <img src="asset/img/arrow-left.png" alt="next" class="img-fluid" />
+                </div>
+                <div class="fw9-profile-menu d-flex justify-content-between rounded-4 mx-auto">
+                  <p>Change PIN</p>
+                  <img src="asset/img/arrow-left.png" alt="next" class="img-fluid" />
+                </div>
+                <div class="fw9-profile-menu d-flex justify-content-between rounded-4 mx-auto">
+                  <p>Logout</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column col-lg-5 bg-light fw9-contact-list">
+              <div class="d-flex justify-content-between">
+                <p class="title">Contacts Info</p>
+                <a href="#">See all</a>
+              </div>
+              <div class="mt-4 d-flex flex-column gap-5">
+                <div class="d-flex justify-content-start align-items-start gap-2 fw9-user">
+                  <img src="asset/img/David.png" alt="pict profile" class="img-fluid" />
+                  <div>
+                    <p style="margin: 0" class="name">Samuel Suhi</p>
+                    <p class="phone">+62 8371-1010-2732</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-start align-items-start gap-2 fw9-user">
+                  <img src="asset/img/contact2.png" alt="pict profile" class="img-fluid" />
+                  <div>
+                    <p style="margin: 0" class="name">Samuel Suhi</p>
+                    <p class="phone">+62 8371-1010-2732</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-start align-items-start gap-2 fw9-user">
+                  <img src="asset/img/contact3.png" alt="pict profile" class="img-fluid" />
+                  <div>
+                    <p style="margin: 0" class="name">Samuel Suhi</p>
+                    <p class="phone">+62 8371-1010-2732</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="d-flex flex-column flex-lg-row justify-content-lg-between">
+      <p>2020 Zwallet. All right reserved.</p>
+      <div class="d-flex gap-lg-5 flex-column flex-lg-row">
+        <p>+62 5637 8882 9901</p>
+        <p>contact@zwallet.com</p>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
