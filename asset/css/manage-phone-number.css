@@ -59,6 +59,7 @@ main {
 
 .fw9-input-amount {
   padding: 30px 30px 45px;
+  min-height: 678px;
 }
 
 .fw9-input-amount h4 {
@@ -74,51 +75,30 @@ main {
   max-width: 342px;
 }
 
-.fw9-input {
-  max-width: 432px;
+.fw9-input-amount .container {
+  padding: 15px 35px 15px 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
-.input-group-text {
-  background-color: unset;
-  border: unset;
-  border-radius: unset;
-  border-bottom: 2px solid #a9a9a999;
-  color: #a9a9a999;
+.fw9-input-amount .container h5 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7a7886;
 }
 
-.input-group span {
-  border-bottom: 2px solid rgba(169, 169, 169, 0.6);
-  padding: 0;
-  margin: 0;
-  line-height: 50px;
+.fw9-input-amount .container h3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #514f5b;
 }
 
-.form-control {
-  border: unset;
-  border-radius: unset;
-  border-bottom: 2px solid #a9a9a999;
-  background-color: transparent;
+.fw9-input-amount .container a {
+  color: #bbbbbe;
 }
 
-.form-control:focus {
-  box-shadow: unset;
-  background-color: transparent;
-}
-
-.col-auto {
-  max-width: 431px;
-}
-
-.btn {
-  background-color: #dadada;
-  border-color: #dadada;
-  color: #88888f;
-  margin-top: 50px;
-}
-
-.btn:hover {
-  background-color: #adadad;
-  border-color: #dadada;
+.fw9-input-amount .container a:hover {
+  color: #3a3d42;
 }
 
 footer {
