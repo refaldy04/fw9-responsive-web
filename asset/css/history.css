@@ -42,6 +42,10 @@ main {
   border-radius: 25px;
 }
 
+.fw9-menu-list a {
+  text-decoration: none;
+}
+
 .fw9-menu {
   font-weight: 400;
   font-size: 18px;
