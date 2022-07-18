@@ -18,6 +18,10 @@ section {
   padding: 121px 150px 30px 70px;
 }
 
+.fw-confirmation a {
+  text-decoration: none;
+}
+
 .fw-check {
   background-color: #1ec15f;
   width: 70px;
