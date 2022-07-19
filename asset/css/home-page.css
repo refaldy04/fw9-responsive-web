@@ -50,6 +50,11 @@ main {
   color: rgba(58, 61, 66, 0.8);
 }
 
+.fw9-transaction:hover {
+  background-color: #546df5;
+  border-color: #ffffff;
+}
+
 .fw9-menu-active {
   font-weight: 400;
   font-size: 18px;
